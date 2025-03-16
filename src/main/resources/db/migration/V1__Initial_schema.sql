@@ -23,5 +23,8 @@ CREATE TABLE IF NOT exists users_roles (
 INSERT INTO roles (name) VALUES
 ('ROLE_ADMIN'),
 ('ROLE_USER'),
-('ROLE_TESTER')
+('ROLE_TESTER'),
+('ROLE_CRUD'),
+('ROLE_BOUNCER'),
+('ROLE_SCRAPPER')
 ;
